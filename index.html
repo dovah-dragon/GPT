@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="side-bar">
+        <div class="side-bar__top">
+            <button class="side-bar__btn1"> + New Chat</button>
+            <button class="side-bar__btn2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layout-sidebar" viewBox="0 0 16 16">
+                    <path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm5-1v12h9a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H5zM4 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h2V2z"/>
+                  </svg>
+            </button>
+        </div>
+        
+        <div class="history"></div>
+        <div class="nav">
+            <div style="width: 100%; background-color: rgba(255, 255, 255, 0.247); height: 1px;"></div>
+            <p style="text-align: center;">Made by KS</p>
+        </div>
+    </section>
+
+    <section class="main">
+
+        <h1>Pooch Jo Poochna Hai...</h1>
+        <p id="output"></p>
+
+        <div class="button-section">
+            <div class="input-container">
+                <input type="text" class="send_msg" placeholder="Send a message">
+                <div id="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                      </svg>
+                </div>
+            </div>
+            <p class="info">Chat GPT v.69</p>
+        </div>
+        
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
