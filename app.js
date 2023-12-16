@@ -1,6 +1,6 @@
 
 const submitButton = document.getElementById('submit');
-const API_KEY = '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';
+const API_KEY = '';
 
 const outBox = document.querySelector('#output');
 const inBox = document.querySelector('.send_msg');
